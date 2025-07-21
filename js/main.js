@@ -40,12 +40,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
   });
 
+<<<<<<< HEAD
   revokeBtn?.addEventListener("click", function () {
     localStorage.removeItem("cookies-accepted-jahee");
     banner.style.display = "block";
     revokeBtn.style.display = "none";
   });
 
+=======
+>>>>>>> fad61bf2b073c864418042e0b5e85ea50b680c52
   // Galleria foto: gestisce sia "/photo-gallery" che "/photo-gallery/"
   if (currentURL.endsWith("/photo-gallery")) {
     const modal = new bootstrap.Modal(document.getElementById('imageModal'));
@@ -62,4 +65,8 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     });
   }
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> fad61bf2b073c864418042e0b5e85ea50b680c52
