@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
   alert(currentURL);
   //Photo Gallery
-  if(currentURL==="/photo-gallery"){  
+  if(currentURL.endsWith("/photo-gallery")){  
     const modal = new bootstrap.Modal(document.getElementById('imageModal'));
     const modalImage = document.getElementById('modalImage');
     const thumbs = document.querySelectorAll('.gallery-thumb');
