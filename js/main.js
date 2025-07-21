@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
     localStorage.setItem("cookies-accepted", "true");
     banner.style.display = "none";
   });
-
+  alert(currentURL);
   //Photo Gallery
   if(currentURL==="/photo-gallery"){  
     const modal = new bootstrap.Modal(document.getElementById('imageModal'));
