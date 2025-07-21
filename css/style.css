@@ -1,0 +1,139 @@
+@media (min-width: 992px){
+#header-separator {
+    visibility: hidden;
+}
+}
+
+#header-separator {
+    background-color: rgb(0, 76.5, 153);
+    height: 5px;
+}
+
+.it-header-center-wrapper {
+    background-color: white;
+}
+
+#burger {
+    fill: rgb(0, 76.5, 153);
+}  
+
+@media (min-width: 992px){
+.it-header-navbar-wrapper {
+  background-color: #27272A !important;
+}}
+
+.top-menu {
+    background-color: #0070c0;
+    height: 3px;
+}
+
+@media (min-width: 992px) {
+    .navbar .navbar-collapsable .navbar-nav li.nav-item a.nav-link.active, .navbar .navbar-collapsable .navbar-nav li.nav-item button.nav-link.active {
+        border-left: 0;
+        border-color: #0070c0;
+        background: rgba(0, 0, 0, 0);        
+    }
+}
+
+.it-header-center-wrapper {
+  height: 250px;
+}
+
+.ja-title {   
+    margin-left: 13px;
+    color: #0070c0;
+}
+
+.ja-subtitle {
+   display: block; 
+   margin-left: 13px;
+}
+
+.ja-funded-by {
+  display: block;
+  margin-top: 10px;
+  font-size: 1rem; 
+}
+
+.container {
+    font-size: 1rem !important;
+}
+
+.color-text {
+      color: #0070c0 !important;  
+}
+
+.color-text-bold {
+      color: #0070c0 !important;
+      font-weight: bold;
+}
+
+.p-text {
+    text-align: justify;
+    font-size: 1rem;
+}
+
+.p-text-center {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.iln{
+  line-height: 1.2;
+}
+
+body {
+    font-family: Calibri;
+    font-size: 1rem;
+}
+
+@media (min-width: 576px) {
+  p, ul, ol, dl {
+    font-size: 1rem;
+    line-height: 1.75rem;
+  }
+}
+
+.icon-sm {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.btn-jahee {
+  background-color: #0070c0;
+  color: #fff;
+  border-color: #0070c0;
+}
+
+.btn-jahee:hover,
+.btn-jahee:focus,
+.btn-jahee:active,
+.btn-jahee:active:focus,
+.btn-jahee:focus-visible {
+  background-color: #5e8bb0;  /* leggermente più scuro */
+  border-color: #0070c0;
+  color: #fff;
+  box-shadow: none;
+}
+
+.lista-senza-punti {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+/*Stile per tabella cookies*/
+  .col-name { width: 165px; }
+  .col-supplier { width: 126px; }
+  .col-purpose { width: 124px; }
+  .col-expiry { width: 98px; }
+  .col-type { width: 186px; }
+
+  .col-supplier-alt { width: 125px; }
+  .col-purpose-alt { width: 107px; }
+  .col-expiry-alt { width: 132px; }
+  .col-type-alt { width: 170px; }
+
+  .modal-body{
+    padding-bottom: 1.5rem !important;
+  }
